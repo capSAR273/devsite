@@ -1,8 +1,8 @@
-## Welcome to my GitHub Pages Site
+## Fat Rat's Dev Corner
 
 ### Currently Under Construction!
 
 
 ### Contact Me
 
-Have feedback or questions about the site? Shoot me a message at @FatRat_RS
+Have feedback or questions about the site? Shoot me a message at @fatratdev on Twitter.
