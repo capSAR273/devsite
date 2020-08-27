@@ -423,3 +423,15 @@ Small Device Styles
   }
 
 }
+
+sidenav{
+  height: 80%;
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  top:0;
+  left:0;
+  background-color: #373737;
+  overflow-x:hidden;
+  padding-top: 20px;
+}
