@@ -424,7 +424,7 @@ Small Device Styles
 
 }
 
-sidenav{
+.sidenav{
   height: 80%;
   width: 150px;
   position: fixed;
@@ -434,4 +434,16 @@ sidenav{
   background-color: #373737;
   overflow-x:hidden;
   padding-top: 20px;
+}
+
+.sidenav a{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 24px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
 }
