@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="javascripts/main.js"></script>
   <head>
     <meta charset='utf-8'>
@@ -30,33 +29,42 @@
     </div>
 
     <!-- MAIN CONTENT -->
+    <div id="container">
     
-
-    <div id="main_content_wrap" class="outer">
-      <div id="sidebar" class="sidenav">
-        <header>
-          <h3>Fancy Sidebar</h3>
-            <p>
-              Current Reading List:
-              <a href="https://stephenking.com/works/novel/cell.html">Cell, Steven King</a>
-            </p>
-        </header>
-      </div>
+    <div id="main_content_wrap" class="column">
       <section id="main_content" class="inner">
-        <h3>
+        <h2>
           <a id="welcome-to-my-site" class="anchor" href="#welcome-to-my-site" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to my Site!</h3>
           <p>Here I'll be posting any current personal projects or updates.</p>
-        </h3>
-        <h3>Current Projects</h3>
+        </h2>
+        <h2>Current Projects</h2>
         <p>
           Embedded C++ Course with TI Tiva C Series LaunchPad
         </p>
-        <h2>
-          <a id="contact-me" class="anchor" href="#contact-me" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact Me</h2>
+        <h3>
+          <a id="contact-me" class="anchor" href="#contact-me" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact Me</h3>
           <p>If you have comments or questions about the site, shoot me a message on Twitter at @fatratdev</p>
       </section>
     </div>
-    
+    <div id="left_sidebar" class="column">
+      <header>
+        <h3>Fancy Sidebar</h3>
+          <p>
+            Current Reading List:
+            <a href="https://stephenking.com/works/novel/cell.html">Cell, Steven King</a>
+          </p>
+      </header>
+    </div>
+    <div id="right_sidebar" class="column">
+      <header>
+        <h3>Fancy Sidebar</h3>
+          <p>
+            Current Reading List:
+            <a href="https://stephenking.com/works/novel/cell.html">Cell, Steven King</a>
+          </p>
+      </header>
+    </div>
+    </div>
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
