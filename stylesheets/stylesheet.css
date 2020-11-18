@@ -444,21 +444,21 @@ Small Device Styles
   text-align: center;
 }
 
-#container .column li{
+#container .column ul{
   padding-left: 5px;
 }
 
 #container .column a{
   text-decoration: none;
   font-size: 16px;
-  color: #818181;
+  color:white;
   display: block;
   text-align: left;
 
 }
 
 #container .column a:hover{
-  color: #f1f1f1;
+  color: blue;
 }
 
 #left_sidebar{
