@@ -197,12 +197,13 @@ blockquote {
 
 
 ul, ol, dl {
-  margin-bottom: 15px
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 ul {
   list-style-position: inside;
-  list-style: disc;
+  list-style:none;
   padding-left: 20px;
 }
 
@@ -372,6 +373,53 @@ Full-Width Styles
 }
 
 
+#container{
+  padding-left: 200px;
+  padding-right: 150px;
+  overflow: hidden;
+}
+#container .column {
+  position: relative;
+  float: left;
+  padding-bottom: 20010px;
+  margin-bottom: -20000px;
+}
+
+#container .column h3{
+  color: #f2f2f2;
+  font-size: 20px;
+  text-align: center;
+}
+
+#container .column ul{
+  padding-left: 5px;
+}
+
+#container .column a{
+  text-decoration: none;
+  font-size: 16px;
+  color:white;
+  display: block;
+  text-align: left;
+
+}
+
+#container .column a:hover{
+  color: blue;
+}
+
+#sidebar{
+  width: 200px;
+  height: auto;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  background-color: grey;
+}
+
+#sidebar a{
+  color: white;
+}
 
 /*******************************************************************************
 Small Device Styles
@@ -425,51 +473,4 @@ Small Device Styles
     font-size: 11px;
   }
 
-}
-#container{
-  padding-left: 200px;
-  padding-right: 150px;
-  overflow: hidden;
-}
-#container .column {
-  position: relative;
-  float: left;
-  padding-bottom: 20010px;
-  margin-bottom: -20000px;
-}
-
-#container .column h3{
-  color: #f2f2f2;
-  font-size: 20px;
-  text-align: center;
-}
-
-#container .column ul{
-  padding-left: 5px;
-}
-
-#container .column a{
-  text-decoration: none;
-  font-size: 16px;
-  color:white;
-  display: block;
-  text-align: left;
-
-}
-
-#container .column a:hover{
-  color: blue;
-}
-
-#left_sidebar{
-  width: 200px;
-  right: 200px;
-  margin-left: -100%;
-  background-color: grey;
-}
-
-#right_sidebar{
-  width: 150px;
-  margin-right: -150px;
-  background-color: grey;
 }
