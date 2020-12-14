@@ -374,8 +374,6 @@ Full-Width Styles
 
 
 #container{
-  padding-left: 200px;
-  padding-right: 150px;
   overflow: hidden;
 }
 #container .column {
