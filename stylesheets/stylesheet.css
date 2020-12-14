@@ -376,6 +376,7 @@ Full-Width Styles
 #container{
   overflow: hidden;
 }
+
 #container .column {
   position: relative;
   float: left;
@@ -392,11 +393,14 @@ Full-Width Styles
 #container .column ul{
   padding-left: 5px;
 }
+#container .column li a{
+  color: white;
+}
 
 #container .column a{
   text-decoration: none;
   font-size: 16px;
-  color:white;
+  color:#0090ff;
   display: block;
   text-align: left;
 
